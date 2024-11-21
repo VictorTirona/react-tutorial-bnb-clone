@@ -1,13 +1,89 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: "Poppins";
+    margin: 0px;
+    background-color: white;
+    padding: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card {
+    position: relative;
+}
+
+.card-img {
+    width: 176px;
+    margin: 0px;
+}
+
+.card-status {
+    border-radius: 2px;
+    background-color: white;
+    width: 61px;
+    height: 20px;
+    line-height: 20px; /*makes text go onto vertical center of the div*/
+    font-size: 10.24px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    margin: 0px;
+}
+
+.card-info-container{
+    margin-top: 9px;
+}
+
+.card-rating-container {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.card-rating-img {
+    width: 14px;
+}
+
+.card-rating-num {
+    margin: 0 0 0 2px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.card-rating-num-people {
+    margin: 0 0 0 2px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #918E9B;
+}
+
+.card-rating-bullet {
+    margin: 0 0 0 2px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #918E9B;
+}
+
+.card-rating-place {
+    margin: 0 0 0 2px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #918E9B;
+}
+
+.card-name {
+    margin: 8px 0 0 0;
+    width: 175px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.card-price {
+    margin: 8px 0 0 0;
+    width: 175px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.card-price-bold {
+    font-weight: 600;
 }
