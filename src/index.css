@@ -5,11 +5,18 @@ body {
     padding: 20px;
 }
 
+.container{
+    display: flex;
+    align-items: center;
+}
+
 .card {
     position: relative;
+    margin-right: 18px;
 }
 
 .card-img {
+    height: 235px;
     width: 176px;
     margin: 0px;
 }
