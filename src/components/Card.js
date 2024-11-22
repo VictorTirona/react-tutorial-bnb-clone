@@ -8,18 +8,18 @@ export default function Card(props) {
     console.log(props)
     return (
         <div className="card">
-            <img className="card-img" src={`./images/${props.cardIMG}`} />
+            <img className="card-img" src={`./images/${props.coverImg}`} />
             <h2 className="card-status">{props.status}</h2>
             <div className="card-info-container">
                 <div className="card-rating-container">
                     <img className="card-rating-img" src={starIMG} />
-                    <h2 className="card-rating-num">{props.cardRating}</h2>
-                    <h2 className="card-rating-num-people">&#40;{props.cardRatingNumPeople}&#41;</h2>
+                    <h2 className="card-rating-num">{props.rating}</h2>
+                    <h2 className="card-rating-num-people">&#40;{props.reviewCount}&#41;</h2>
                     <h2 className="card-rating-bullet">&#8226;</h2>
-                    <h2 className="card-rating-place">{props.cardRatingPlace}</h2>
+                    <h2 className="card-rating-place">{props.location}</h2>
                 </div>
-                <h2 className="card-name">{props.cardName}</h2>
-                <h2 className="card-price"><span className="card-price-bold">From ${props.cardPrice}</span> / person</h2>
+                <h2 className="card-name">{props.title}</h2>
+                <h2 className="card-price"><span className="card-price-bold">From ${props.price}</span> / person</h2>
             </div>
 
 
