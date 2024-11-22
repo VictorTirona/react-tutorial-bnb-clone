@@ -4,7 +4,7 @@ export default [
         title: "Life lessons with Katie Zaferes",
         status: "SOLD OUT",
         price: 136,
-        coverImg: "zafares.png",
+        coverImg: "life-lessons.png",
         stats: {
             rating: 5.0,
             reviewCount: 6

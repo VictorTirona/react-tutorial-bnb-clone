@@ -8,7 +8,7 @@ export default function Card(props) {
     console.log(props)
     return (
         <div className="card">
-            <img className="card-img" src={props.cardIMG} />
+            <img className="card-img" src={`./images/${props.cardIMG}`} />
             <h2 className="card-status">{props.status}</h2>
             <div className="card-info-container">
                 <div className="card-rating-container">
