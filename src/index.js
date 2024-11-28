@@ -15,32 +15,19 @@ root.render(
 )
 
 /*
-These are my notes from Section 2: Airbnb App
-    1. Props
-    2. Creating components from an array of data
-
-
-I skipped creating the Header and the Hero section -- 2:31:00 to 2:43:11
-I stopped at 3:36:13 but I already added props to the airbnb cards
-
-USING ARRAYS
-    React has a special behavior where -- if we give it an array of objects:
-
-    for example, ["Red", "Orange", "Yellow"]
-
-    if we output it in React, it will be outputted as RedOrangeYellow
-
-    If we have an array of JSX elements, for example: [<h1>Red</h1>, <h1>Orange</h1>, <h1>Yellow</h1>]
-    Then React will output that as HTML. 
-
-    Bottomline: Each array item will be treated as a NEW line of HTML
-
-    In Real Life:
-        - Data will be in an array of objects
-        - Often, we will use the array.map() method to create component instances
-        and inserting the data via the map as props
-        - Using array.map() is more "self-sustaining" because as new data is added,
-        it will just add more instances of the component 
-
-
+Making interactive applications.
+    I. Adding Event Listeners
+        A. Javscript way: .addEventListener(<event>, <function>)
+            - "click" = event
+        B. HTML way: onclick="myFunction()"
+            - This is the way we'll uses in React/JSX. But instead of
+            "onclick", it is "onClick"
+    II. Example of adding event listeners
+        A. <button onClick={function}>Click me</button>
+            - Define function outside of the return()
+            - if you add a "()" to the function, it will run it immediately
+            if you don't have the "()" it's passed as a value and will
+            only run once clicked
+            -https://www.w3schools.com/react/react_events.asp
+    
 */
