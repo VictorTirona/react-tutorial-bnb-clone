@@ -94,3 +94,22 @@ body {
     margin: 32px 0 0 37px;
     width: 88vw;
 }
+
+.state{
+    background-color: #222222;
+    text-align: center;
+}
+
+.state--title{
+    color: white;
+}
+
+.state--value{
+    color: #222222;
+    line-height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
